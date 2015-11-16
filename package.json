@@ -1,0 +1,22 @@
+{
+  "name": "jenkins-mobile-app-demo",
+  "version": "1.0.0",
+  "description": "Demo of how mobile app integrate with RHMAP through Jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keyang Xiang (kxiang@redhat.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cordova": "^5.4.0",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-git-deploy": "^0.1.1",
+    "grunt-mkdir": "^0.1.2",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}
